@@ -1,0 +1,124 @@
+{
+    'locations': {
+        'tbd': {
+            'name': 'TBD'
+        },
+        'ibm': {
+            'name': 'IBM Squirrel Hill',
+            'url': 'https://www.google.com/maps?q=1710+Murray+Ave+15217'
+        },
+        'google': {
+            'name': 'Google',
+            'url': 'https://www.google.com/maps?q=6425+Penn+Ave+15206'
+        }
+    },
+    'presenters': {
+        'tbd': {
+            'name': 'TBD'
+        },
+        'nicksloan': {
+            'name': 'Nick Sloan',
+            'url': 'https://twitter.com/nicksloan'
+        },
+        'openhack': {
+            'name': 'OpenHack',
+            'url': 'https://twitter.com/OpenHackPGH'
+        },
+        'mrstevegros': {
+            'name': 'Steve Gross',
+            'url': 'https://twitter.com/mrstevegross'
+        }
+    },
+    'events': [
+        {
+            'date': 'January 22',
+            'location': 'ibm',
+            'presenter': 'nicksloan',
+            'topic': 'Python 3 and Your Next Project',
+            'url': 'http://www.meetup.com/pghpython/events/151252032/'
+        },
+        {
+            'date': 'January 27',
+            'location': 'ibm',
+            'presenter': 'openhack',
+            'topic': 'Join Event with Pittsburgh Ruby',
+            'url': 'http://openhack.github.io/pittsburgh/'
+        },
+        {
+            'date': 'February 24',
+            'location': 'ibm',
+            'presenter': 'openhack',
+            'topic': 'Join Event with Pittsburgh Ruby',
+            'url': 'http://openhack.github.io/pittsburgh/'
+        },
+        {
+            'date': 'February 26',
+            'location': 'google',
+            'presenter': 'mrstevegross',
+            'topic': 'Intro to Python Workshop',
+            'url': 'http://www.meetup.com/pghpython/events/159752812/'
+        },
+        {
+            'date': 'March 24',
+            'location': 'ibm',
+            'presenter': 'openhack',
+            'topic': 'Join Event with Pittsburgh Ruby',
+            'url': 'http://openhack.github.io/pittsburgh/'
+        },
+        {
+            'date': 'April 28',
+            'location': 'ibm',
+            'presenter': 'openhack',
+            'topic': 'Join Event with Pittsburgh Ruby',
+            'url': 'http://openhack.github.io/pittsburgh/'
+        },
+        {
+            'date': 'May 26',
+            'location': 'ibm',
+            'presenter': 'openhack',
+            'topic': 'Join Event with Pittsburgh Ruby',
+            'url': 'http://openhack.github.io/pittsburgh/'
+        },
+        {
+            'date': 'June 23',
+            'location': 'ibm',
+            'presenter': 'openhack',
+            'topic': 'Join Event with Pittsburgh Ruby',
+            'url': 'http://openhack.github.io/pittsburgh/'
+        },
+        {
+            'date': 'July 28',
+            'location': 'ibm',
+            'presenter': 'openhack',
+            'topic': 'Join Event with Pittsburgh Ruby',
+            'url': 'http://openhack.github.io/pittsburgh/'
+        },
+        {
+            'date': 'August 25',
+            'location': 'ibm',
+            'presenter': 'openhack',
+            'topic': 'Join Event with Pittsburgh Ruby',
+            'url': 'http://openhack.github.io/pittsburgh/'
+        },
+        {
+            'date': 'September 29',
+            'location': 'ibm',
+            'presenter': 'openhack',
+            'topic': 'Join Event with Pittsburgh Ruby',
+            'url': 'http://openhack.github.io/pittsburgh/'
+        },
+        {
+            'date': 'October 27',
+            'location': 'ibm',
+            'presenter': 'openhack',
+            'topic': 'Join Event with Pittsburgh Ruby',
+            'url': 'http://openhack.github.io/pittsburgh/'
+        },
+        {
+            'date': 'December 3',
+            'location': 'tbd',
+            'presenter': 'nicksloan',
+            'topic': 'End of Year Celebration',
+        }
+    ]
+}

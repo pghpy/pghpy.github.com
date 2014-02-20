@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="stylesheets/styles.css">
     <meta name="viewport" content="width=device-width">
     <link rel="icon" type="image/png" href="/images/logo.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
+    <script>
+    angular.module('pghpy')
+    .controllers('EventListCtrl', ['$http', function($http) {
+        $http.get('/events.json').then(function(data) {}
+            console.log(data);
+        });
+    }]);
+    </script>
   </head>
   <body>
     <div class="wrapper">
@@ -18,7 +27,7 @@
 
         <p>
             <a href="http://twitter.com/pghpy">Twitter</a> -
-            <a href="https://www.facebook.com/pages/Pittsburgh-Python-User-Group/215514138486687">Facebook</a> -  
+            <a href="https://www.facebook.com/pages/Pittsburgh-Python-User-Group/215514138486687">Facebook</a> -
             <a href="http://www.meetup.com/pghpython/">Meetup</a> -
             <a href="https://groups.google.com/forum/#!forum/pghpy">Mailing List</a> -
             <a href="https://groups.google.com/forum/#!forum/pghpy-organizers">Organizers'
