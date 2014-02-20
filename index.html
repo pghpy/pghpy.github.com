@@ -11,7 +11,7 @@
     <script>
     angular.module('pghpy')
     .controllers('EventListCtrl', ['$http', function($http) {
-        $http.get('/events.json').then(function(data) {}
+        $http.get('/events.json').then(function(data) {
             console.log(data);
         });
     }]);
