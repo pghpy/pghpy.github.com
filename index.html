@@ -9,8 +9,8 @@
     <link rel="icon" type="image/png" href="/images/logo.png">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
     <script>
-    angular.module('pghpy')
-    .controllers('EventListCtrl', ['$http', function($http) {
+    angular.module('pghpy', [])
+    .controller('EventListCtrl', ['$http', function($http) {
         $http.get('/events.json').then(function(data) {
             console.log(data);
         });
