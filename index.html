@@ -17,7 +17,7 @@
     }]);
     </script>
   </head>
-  <body>
+  <body ng-app="pghpy">
     <div class="wrapper">
       <section>
         <h3>
@@ -44,7 +44,7 @@
             text-decoration: line-through;
           }
         </style>
-        <table>
+        <table ng-controller="EventListCtrl as e">
             <thead>
                 <tr>
                     <th>Date</th>
