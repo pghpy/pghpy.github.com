@@ -24,9 +24,29 @@
             "name": "OpenHack",
             "url": "https://twitter.com/OpenHackPGH"
         },
-        "mrstevegros": {
+        "mrstevegross": {
             "name": "Steve Gross",
             "url": "https://twitter.com/mrstevegross"
+        },
+        "synapticarbors": {
+            "name": "Joshua Adelman",
+            "url": "https://twitter.com/synapticarbors"
+        },
+        "swansone": {
+            "name": "Erik Swanson",
+            "url": "http://www.swansone.com/"
+        },
+        "whit537": {
+            "name": "Chad Whitacre",
+            "url": "https://twitter.com/whit537"
+        },
+        "joshuapowell": {
+            "name": "Joshua Powell",
+            "url": "https://twitter.com/joshuapowell"
+        },
+        "ryanhamley": {
+            "name": "Ryan Hamley",
+            "url": "https://twitter.com/ryanhamley"
         }
     },
     "events": [
@@ -41,15 +61,15 @@
             "date": "January 27",
             "location": "ibm",
             "presenter": "openhack",
-            "topic": "Join Event with Pittsburgh Ruby",
-            "url": "http://openhack.github.io/pittsburgh/"
+            "topic": "<a href=\"http://openhack.github.io/pittsburgh/\">Joint event with Pittsburgh Ruby</a>",
+            "url": "http://www.meetup.com/pittsburgh-ruby/events/158236852/"
         },
         {
             "date": "February 24",
             "location": "ibm",
             "presenter": "openhack",
-            "topic": "Join Event with Pittsburgh Ruby",
-            "url": "http://openhack.github.io/pittsburgh/"
+            "topic": "<a href=\"http://openhack.github.io/pittsburgh/\">Joint event with Pittsburgh Ruby</a>",
+            "url": "http://www.meetup.com/pittsburgh-ruby/events/163727212/"
         },
         {
             "date": "February 26",
@@ -60,59 +80,107 @@
         },
         {
             "date": "March 24",
-            "location": "ibm",
+            "location": "tbd",
             "presenter": "openhack",
-            "topic": "Join Event with Pittsburgh Ruby",
-            "url": "http://openhack.github.io/pittsburgh/"
+            "topic": "<a href=\"http://openhack.github.io/pittsburgh/\">Joint event with Pittsburgh Ruby</a>"
+        },
+        {
+            "date": "March 26",
+            "location": "tbd",
+            "presenter": "synapticarbors",
+            "topic": "Something Science-y",
+            "url": "http://www.meetup.com/pghpython/events/160262032/"
+        },
+        {
+            "date": "April 23",
+            "location": "tbd",
+            "presenter": "nicksloan",
+            "topic": "TBD",
+            "url": "http://www.meetup.com/pghpython/events/160262132/"
         },
         {
             "date": "April 28",
-            "location": "ibm",
+            "location": "tbd",
             "presenter": "openhack",
-            "topic": "Join Event with Pittsburgh Ruby",
-            "url": "http://openhack.github.io/pittsburgh/"
+            "topic": "<a href=\"http://openhack.github.io/pittsburgh/\">Joint event with Pittsburgh Ruby</a>"
         },
         {
             "date": "May 26",
-            "location": "ibm",
+            "location": "tbd",
             "presenter": "openhack",
-            "topic": "Join Event with Pittsburgh Ruby",
-            "url": "http://openhack.github.io/pittsburgh/"
+            "topic": "<a href=\"http://openhack.github.io/pittsburgh/\">Joint event with Pittsburgh Ruby</a>"
+        },
+        {
+            "date": "May 28",
+            "location": "tbd",
+            "presenter": "swansone",
+            "topic": "Lightning Talks",
+            "url": "http://www.meetup.com/pghpython/events/dcrjzdyshblc/"
         },
         {
             "date": "June 23",
-            "location": "ibm",
+            "location": "tbd",
             "presenter": "openhack",
-            "topic": "Join Event with Pittsburgh Ruby",
-            "url": "http://openhack.github.io/pittsburgh/"
+            "topic": "<a href=\"http://openhack.github.io/pittsburgh/\">Joint event with Pittsburgh Ruby</a>"
+        },
+        {
+            "date": "June 25",
+            "location": "tbd",
+            "presenter": "whit537",
+            "topic": "<a href=\"http://algorithm-py.readthedocs.org/\">Algorithm.py</a>",
+            "url": "http://www.meetup.com/pghpython/events/dvqjzdysjbhc/"
+        },
+        {
+            "date": "July 23",
+            "location": "tbd",
+            "presenter": "nicksloan",
+            "topic": "TBD",
+            "url": "http://www.meetup.com/pghpython/events/dcrjzdyskbfc/"
         },
         {
             "date": "July 28",
-            "location": "ibm",
+            "location": "tbd",
             "presenter": "openhack",
-            "topic": "Join Event with Pittsburgh Ruby",
-            "url": "http://openhack.github.io/pittsburgh/"
+            "topic": "<a href=\"http://openhack.github.io/pittsburgh/\">Joint event with Pittsburgh Ruby</a>"
         },
         {
             "date": "August 25",
-            "location": "ibm",
+            "location": "tbd",
             "presenter": "openhack",
-            "topic": "Join Event with Pittsburgh Ruby",
-            "url": "http://openhack.github.io/pittsburgh/"
+            "topic": "<a href=\"http://openhack.github.io/pittsburgh/\">Joint event with Pittsburgh Ruby</a>"
+        },
+        {
+            "date": "August 27",
+            "location": "tbd",
+            "presenter": "joshuapowell",
+            "topic": "Writing a REST API with Flask",
+            "url": "http://www.meetup.com/pghpython/events/dvqjzdyslbkc/"
+        },
+        {
+            "date": "September 24",
+            "location": "tbd",
+            "presenter": "tbd",
+            "topic": "TBD",
+            "url": "http://www.meetup.com/pghpython/events/dcrjzdysmbgc/"
         },
         {
             "date": "September 29",
-            "location": "ibm",
+            "location": "tbd",
             "presenter": "openhack",
-            "topic": "Join Event with Pittsburgh Ruby",
-            "url": "http://openhack.github.io/pittsburgh/"
+            "topic": "<a href=\"http://openhack.github.io/pittsburgh/\">Joint event with Pittsburgh Ruby</a>"
+        },
+        {
+            "date": "October 22",
+            "location": "tbd",
+            "presenter": "tbd",
+            "topic": "TBD",
+            "url": "http://www.meetup.com/pghpython/events/dvqjzdysnbdc/"
         },
         {
             "date": "October 27",
-            "location": "ibm",
+            "location": "tbd",
             "presenter": "openhack",
-            "topic": "Join Event with Pittsburgh Ruby",
-            "url": "http://openhack.github.io/pittsburgh/"
+            "topic": "<a href=\"http://openhack.github.io/pittsburgh/\">Joint event with Pittsburgh Ruby</a>"
         },
         {
             "date": "December 3",

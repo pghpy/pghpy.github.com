@@ -10,8 +10,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
     <script>
     angular.module('pghpy', [])
-    .controller('EventListCtrl', ['$http', function($http) {
+    .filter('trusted', ['$sce', function($sce) {
+        return function(text) {
+            return $sce.trustAsHtml(text);
+        };
+    }])
+    .controller('EventListCtrl', ['$http', '$scope', function($http, $scope) {
+        $scope.events = [];
         $http.get('/events.json').then(function(data) {
+            $scope.events = data.data.events;
+            $scope.presenters = data.data.presenters;
+            $scope.locations = data.data.locations;
+
             console.log(data);
         });
     }]);
@@ -54,132 +64,11 @@
                 </tr>
             </thead>
             <tbody>
-                <tr class="past">
-                    <td><a href="http://www.meetup.com/pghpython/events/151252032/">January 22</a></td>
-                    <td><a href="https://www.google.com/maps?q=1710+Murray+Ave+15217">IBM Squirrel Hill</a></td>
-                    <td><a href="https://twitter.com/nicksloan">Nick Sloan</a></td>
-                    <td>Python 3 and Your Next Project</a></td>
-                </tr>
-                <tr class="past">
-                    <td><a href="http://www.meetup.com/pittsburgh-ruby/events/158236852/">January 27</a></td>
-                    <td><a href="https://www.google.com/maps?q=1710+Murray+Ave+15217">IBM Squirrel Hill</a></td>
-                    <td><a href="https://twitter.com/OpenHackPGH">OpenHack</a></td>
-                    <td><a href="http://openhack.github.io/pittsburgh/">Joint event with Pittsburgh Ruby</a></td>
-                </tr>
-                <tr>
-                    <td><a href="http://www.meetup.com/pittsburgh-ruby/events/163727212/">February 24</a></td>
-                    <td><a href="https://www.google.com/maps?q=1710+Murray+Ave+15217">IBM Squirrel Hill</a></td>
-                    <td><a href="https://twitter.com/OpenHackPGH">OpenHack</a></td>
-                    <td><a href="http://openhack.github.io/pittsburgh/">Joint event with Pittsburgh Ruby</a></td>
-                </tr>
-               <tr>
-                    <td><a href="http://www.meetup.com/pghpython/events/159752812/">February 26</a></td>
-                    <td><a href="https://www.google.com/maps?q=6425+Penn+Ave+15206">Google</a></td>
-                    <td><a href="https://twitter.com/mrstevegross">Steve Gross</a></td>
-                    <td>Intro Python Workshop</td>
-                </tr>
-                <tr>
-                    <td>March 24</td>
-                    <td>tbd</td>
-                    <td><a href="https://twitter.com/OpenHackPGH">OpenHack</a></td>
-                    <td><a href="http://openhack.github.io/pittsburgh/">Joint event with Pittsburgh Ruby</a></td>
-                </tr>
-                <tr>
-                    <td><a href="http://www.meetup.com/pghpython/events/160262032/">March 26</a></td>
-                    <td>tbd</td>
-                    <td><a href="https://twitter.com/synapticarbors">Joshua Adelman</a></td>
-                    <td>Something Science-y</td>
-                </tr>
-                <tr>
-                    <td><a href="http://www.meetup.com/pghpython/events/160262132/">April 23</a></td>
-                    <td>tbd</td>
-                    <td><a href="https://twitter.com/nicksloan">Nick Sloan</a></td>
-                    <td>tbd</td>
-                </tr>
-                <tr>
-                    <td>April 28</td>
-                    <td>tbd</td>
-                    <td><a href="https://twitter.com/OpenHackPGH">OpenHack</a></td>
-                    <td><a href="http://openhack.github.io/pittsburgh/">Joint event with Pittsburgh Ruby</a></td>
-                </tr>
-                <tr>
-                    <td>May 26</td>
-                    <td>tbd</td>
-                    <td><a href="https://twitter.com/OpenHackPGH">OpenHack</a></td>
-                    <td><a href="http://openhack.github.io/pittsburgh/">Joint event with Pittsburgh Ruby</a></td>
-                </tr>
-                <tr>
-                    <td><a href="http://www.meetup.com/pghpython/events/dcrjzdyshblc/">May 28</a></td>
-                    <td>tbd</td>
-                    <td><a href="http://www.swansone.com/">Erik Swanson</a></td>
-                    <td>Lightning Talks</td>
-                </tr>
-                <tr>
-                    <td>June 23</td>
-                    <td>tbd</td>
-                    <td><a href="https://twitter.com/OpenHackPGH">OpenHack</a></td>
-                    <td><a href="http://openhack.github.io/pittsburgh/">Joint event with Pittsburgh Ruby</a></td>
-                </tr>
-                <tr>
-                    <td><a href="http://www.meetup.com/pghpython/events/dvqjzdysjbhc/">June 25</a></td>
-                    <td>tbd</td>
-                    <td><a href="https://twitter.com/whit537">Chad Whitacre</a></td>
-                    <td><a href="http://algorithm-py.readthedocs.org/">Algorithm.py</a></td>
-                </tr>
-                <tr>
-                    <td><a href="http://www.meetup.com/pghpython/events/dcrjzdyskbfc/">July 23</a></td>
-                    <td>tbd</td>
-                    <td><a href="https://twitter.com/nicksloan">Nick Sloan</a></td>
-                    <td>tbd</td>
-                </tr>
-                <tr>
-                    <td>July 28</td>
-                    <td>tbd</td>
-                    <td><a href="https://twitter.com/OpenHackPGH">OpenHack</a></td>
-                    <td><a href="http://openhack.github.io/pittsburgh/">Joint event with Pittsburgh Ruby</a></td>
-                </tr>
-                <tr>
-                    <td>August 25</td>
-                    <td>tbd</td>
-                    <td><a href="https://twitter.com/OpenHackPGH">OpenHack</a></td>
-                    <td><a href="http://openhack.github.io/pittsburgh/">Joint event with Pittsburgh Ruby</a></td>
-                </tr>
-                <tr>
-                    <td><a href="http://www.meetup.com/pghpython/events/dvqjzdyslbkc/">August 27</a></td>
-                    <td>tbd</td>
-                    <td><a href="https://twitter.com/joshuapowell">Joshua Powell</a> and/or 
-                        <a href="https://twitter.com/ryanhamley">Ryan Hamley</a></td>
-                    <td>Writing a REST API with Flask</td>
-                </tr>
-                <tr>
-                    <td><a href="http://www.meetup.com/pghpython/events/dcrjzdysmbgc/">September 24</a></td>
-                    <td>tbd</td>
-                    <td>tbd</td>
-                    <td>tbd</td>
-                </tr>
-                <tr>
-                    <td>September 29</td>
-                    <td>tbd</td>
-                    <td><a href="https://twitter.com/OpenHackPGH">OpenHack</a></td>
-                    <td><a href="http://openhack.github.io/pittsburgh/">Joint event with Pittsburgh Ruby</a></td>
-                </tr>
-                <tr>
-                    <td><a href="http://www.meetup.com/pghpython/events/dvqjzdysnbdc/">October 22</a></td>
-                    <td>tbd</td>
-                    <td>tbd</td>
-                    <td>tbd</td>
-                </tr>
-                <tr>
-                    <td>October 27</td>
-                    <td>tbd</td>
-                    <td><a href="https://twitter.com/OpenHackPGH">OpenHack</a></td>
-                    <td><a href="http://openhack.github.io/pittsburgh/">Joint event with Pittsburgh Ruby</a></td>
-                </tr>
-                <tr>
-                    <td>December 3 *</td>
-                    <td>tbd</td>
-                    <td><a href="https://twitter.com/nicksloan">Nick Sloan</a></td>
-                    <td>Drinkup</td>
+                <tr ng-repeat="event in events">
+                    <td><a ng-if="event.url" href="{{ event.url }}">{{ event.date }}</a><span ng-if="!event.url">{{ event.date }}</span></td>
+                    <td><a ng-if="locations[event.location].url" href="{{ locations[event.location].url }}">{{ locations[event.location].name }}</a><span ng-if="!locations[event.location].url">{{ locations[event.location].name }}</span></td>
+                    <td><a ng-if="presenters[event.presenter].url" href="{{ presenters[event.presenter].url }}">{{ presenters[event.presenter].name }}</a><span ng-if="!presenters[event.presenter].url">{{ presenters[event.presenter].name }}</span></td>
+                    <td ng-bind-html="event.topic | trusted"></td>
                 </tr>
             </tbody>
         </table>
