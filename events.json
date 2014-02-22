@@ -152,7 +152,7 @@
         {
             "date": "2014-08-27T19:00:00.000-0500",
             "location": "tbd",
-            "presenter": "joshuapowell",
+            "presenter": ["joshuapowell", "ryanhamley"],
             "topic": "Writing a REST API with Flask",
             "url": "http://www.meetup.com/pghpython/events/dvqjzdyslbkc/"
         },
