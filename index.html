@@ -77,7 +77,7 @@
                 </tr>
             </thead>
             <tbody>
-                <tr ng-repeat="event in events" ng-class=" event.date | isPast ">
+                <tr ng-repeat="event in events" ng-class=" event.date | isPast " ng-cloak>
                     <td><a ng-if="event.url" href="{{ event.url }}">{{ event.date | date:'EEE, MMM d, h:mm a' }}</a><span ng-if="!event.url">{{ event.date | date:'EEE, MMM d, h:mm a' }}</span></td>
                     <td><a ng-if="locations[event.location].url" href="{{ locations[event.location].url }}">{{ locations[event.location].name }}</a><span ng-if="!locations[event.location].url">{{ locations[event.location].name }}</span></td>
                     <td><a ng-if="presenters[event.presenter].url" href="{{ presenters[event.presenter].url }}">{{ presenters[event.presenter].name }}</a><span ng-if="!presenters[event.presenter].url">{{ presenters[event.presenter].name }}</span></td>
