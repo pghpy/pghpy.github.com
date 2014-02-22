@@ -8,12 +8,25 @@
     <meta name="viewport" content="width=device-width">
     <link rel="icon" type="image/png" href="/images/logo.png">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
+    <script src="/angular-locale_en-us.js"></script>
     <script>
     angular.module('pghpy', [])
     .filter('trusted', ['$sce', function($sce) {
         return function(text) {
             return $sce.trustAsHtml(text);
         };
+    }])
+    .filter('isPast', [function() {
+        return function(input) {
+            date = new Date(input);
+            today = new Date();
+
+            if (date < today) {
+              return 'past';
+            }
+
+            return false;
+        }
     }])
     .controller('EventListCtrl', ['$http', '$scope', function($http, $scope) {
         $scope.events = [];
@@ -64,8 +77,8 @@
                 </tr>
             </thead>
             <tbody>
-                <tr ng-repeat="event in events">
-                    <td><a ng-if="event.url" href="{{ event.url }}">{{ event.date }}</a><span ng-if="!event.url">{{ event.date }}</span></td>
+                <tr ng-repeat="event in events" ng-class=" event.date | isPast ">
+                    <td><a ng-if="event.url" href="{{ event.url }}">{{ event.date | date:'EEE, MMM d, h:mm a' }}</a><span ng-if="!event.url">{{ event.date | date:'EEE, MMM d, h:mm a' }}</span></td>
                     <td><a ng-if="locations[event.location].url" href="{{ locations[event.location].url }}">{{ locations[event.location].name }}</a><span ng-if="!locations[event.location].url">{{ locations[event.location].name }}</span></td>
                     <td><a ng-if="presenters[event.presenter].url" href="{{ presenters[event.presenter].url }}">{{ presenters[event.presenter].name }}</a><span ng-if="!presenters[event.presenter].url">{{ presenters[event.presenter].name }}</span></td>
                     <td ng-bind-html="event.topic | trusted"></td>

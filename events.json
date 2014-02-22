@@ -51,139 +51,139 @@
     },
     "events": [
         {
-            "date": "January 22",
+            "date": "2014-01-22T19:00:00.000-0500",
             "location": "ibm",
             "presenter": "nicksloan",
             "topic": "Python 3 and Your Next Project",
             "url": "http://www.meetup.com/pghpython/events/151252032/"
         },
         {
-            "date": "January 27",
+            "date": "2014-01-27T19:00:00.000-0500",
             "location": "ibm",
             "presenter": "openhack",
             "topic": "<a href=\"http://openhack.github.io/pittsburgh/\">Joint event with Pittsburgh Ruby</a>",
             "url": "http://www.meetup.com/pittsburgh-ruby/events/158236852/"
         },
         {
-            "date": "February 24",
+            "date": "2014-02-24T19:00:00.000-0500",
             "location": "ibm",
             "presenter": "openhack",
             "topic": "<a href=\"http://openhack.github.io/pittsburgh/\">Joint event with Pittsburgh Ruby</a>",
             "url": "http://www.meetup.com/pittsburgh-ruby/events/163727212/"
         },
         {
-            "date": "February 26",
+            "date": "2014-02-26T19:00:00.000-0500",
             "location": "google",
             "presenter": "mrstevegross",
             "topic": "Intro to Python Workshop",
             "url": "http://www.meetup.com/pghpython/events/159752812/"
         },
         {
-            "date": "March 24",
+            "date": "2014-03-24T19:00:00.000-0500",
             "location": "tbd",
             "presenter": "openhack",
             "topic": "<a href=\"http://openhack.github.io/pittsburgh/\">Joint event with Pittsburgh Ruby</a>"
         },
         {
-            "date": "March 26",
+            "date": "2014-03-26T19:00:00.000-0500",
             "location": "tbd",
             "presenter": "synapticarbors",
             "topic": "Something Science-y",
             "url": "http://www.meetup.com/pghpython/events/160262032/"
         },
         {
-            "date": "April 23",
+            "date": "2014-04-23T19:00:00.000-0500",
             "location": "tbd",
             "presenter": "nicksloan",
             "topic": "TBD",
             "url": "http://www.meetup.com/pghpython/events/160262132/"
         },
         {
-            "date": "April 28",
+            "date": "2014-04-28T19:00:00.000-0500",
             "location": "tbd",
             "presenter": "openhack",
             "topic": "<a href=\"http://openhack.github.io/pittsburgh/\">Joint event with Pittsburgh Ruby</a>"
         },
         {
-            "date": "May 26",
+            "date": "2014-05-26T19:00:00.000-0500",
             "location": "tbd",
             "presenter": "openhack",
             "topic": "<a href=\"http://openhack.github.io/pittsburgh/\">Joint event with Pittsburgh Ruby</a>"
         },
         {
-            "date": "May 28",
+            "date": "2014-05-28T19:00:00.000-0500",
             "location": "tbd",
             "presenter": "swansone",
             "topic": "Lightning Talks",
             "url": "http://www.meetup.com/pghpython/events/dcrjzdyshblc/"
         },
         {
-            "date": "June 23",
+            "date": "2014-06-23T19:00:00.000-0500",
             "location": "tbd",
             "presenter": "openhack",
             "topic": "<a href=\"http://openhack.github.io/pittsburgh/\">Joint event with Pittsburgh Ruby</a>"
         },
         {
-            "date": "June 25",
+            "date": "2014-06-25T19:00:00.000-0500",
             "location": "tbd",
             "presenter": "whit537",
             "topic": "<a href=\"http://algorithm-py.readthedocs.org/\">Algorithm.py</a>",
             "url": "http://www.meetup.com/pghpython/events/dvqjzdysjbhc/"
         },
         {
-            "date": "July 23",
+            "date": "2014-07-23T19:00:00.000-0500",
             "location": "tbd",
             "presenter": "nicksloan",
             "topic": "TBD",
             "url": "http://www.meetup.com/pghpython/events/dcrjzdyskbfc/"
         },
         {
-            "date": "July 28",
+            "date": "2014-07-28T19:00:00.000-0500",
             "location": "tbd",
             "presenter": "openhack",
             "topic": "<a href=\"http://openhack.github.io/pittsburgh/\">Joint event with Pittsburgh Ruby</a>"
         },
         {
-            "date": "August 25",
+            "date": "2014-08-25T19:00:00.000-0500",
             "location": "tbd",
             "presenter": "openhack",
             "topic": "<a href=\"http://openhack.github.io/pittsburgh/\">Joint event with Pittsburgh Ruby</a>"
         },
         {
-            "date": "August 27",
+            "date": "2014-08-27T19:00:00.000-0500",
             "location": "tbd",
             "presenter": "joshuapowell",
             "topic": "Writing a REST API with Flask",
             "url": "http://www.meetup.com/pghpython/events/dvqjzdyslbkc/"
         },
         {
-            "date": "September 24",
+            "date": "2014-09-24T19:00:00.000-0500",
             "location": "tbd",
             "presenter": "tbd",
             "topic": "TBD",
             "url": "http://www.meetup.com/pghpython/events/dcrjzdysmbgc/"
         },
         {
-            "date": "September 29",
+            "date": "2014-09-29T19:00:00.000-0500",
             "location": "tbd",
             "presenter": "openhack",
             "topic": "<a href=\"http://openhack.github.io/pittsburgh/\">Joint event with Pittsburgh Ruby</a>"
         },
         {
-            "date": "October 22",
+            "date": "2014-10-22T19:00:00.000-0500",
             "location": "tbd",
             "presenter": "tbd",
             "topic": "TBD",
             "url": "http://www.meetup.com/pghpython/events/dvqjzdysnbdc/"
         },
         {
-            "date": "October 27",
+            "date": "2014-10-27T19:00:00.000-0500",
             "location": "tbd",
             "presenter": "openhack",
             "topic": "<a href=\"http://openhack.github.io/pittsburgh/\">Joint event with Pittsburgh Ruby</a>"
         },
         {
-            "date": "December 3",
+            "date": "2014-12-03T19:00:00.000-0500",
             "location": "tbd",
             "presenter": "nicksloan",
             "topic": "End of Year Celebration"
