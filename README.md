@@ -1,6 +1,9 @@
 # README
 
-Just a few notes for contributors to the pghpython.org website.
+Just a few notes for contributors to the pghpython.org website:
+
+First of all, to test this locally, you'll probably want to do
+`$ python -m SimpleHTTPServer` in the repository's root.
 
 I've made it use AngularJS to bind a simple JSON datastructure
 to the table output. We can possibly extend this to do some snazzy
