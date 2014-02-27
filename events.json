@@ -47,6 +47,10 @@
         "ryanhamley": {
             "name": "Ryan Hamley",
             "url": "https://twitter.com/ryanhamley"
+        },
+        "jesselegg": {
+            "name": "Jesse Legg",
+            "url": "https://twitter.com/jesselegg"
         }
     },
     "events": [
@@ -86,15 +90,15 @@
         },
         {
             "date": "2014-03-26T19:00:00.000-0500",
-            "location": "tbd",
+            "location": "ibm",
             "presenter": "synapticarbors",
-            "topic": "Something Science-y",
+            "topic": "Introduction to NumPy (tentative title)",
             "url": "http://www.meetup.com/pghpython/events/160262032/"
         },
         {
             "date": "2014-04-23T19:00:00.000-0500",
             "location": "tbd",
-            "presenter": "nicksloan",
+            "presenter": "jesselegg",
             "topic": "TBD",
             "url": "http://www.meetup.com/pghpython/events/160262132/"
         },
