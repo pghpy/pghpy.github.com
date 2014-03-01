@@ -83,6 +83,13 @@
             "url": "http://www.meetup.com/pghpython/events/159752812/"
         },
         {
+            "date": "2014-03-19T19:00:00.000-0500",
+            "location": "google",
+            "presenter": "mrstevegross",
+            "topic": "Intro to Python Workshop Encore",
+            "url": "http://www.meetup.com/pghpython/events/168787162/"
+        },
+        {
             "date": "2014-03-24T19:00:00.000-0500",
             "location": "tbd",
             "presenter": "openhack",
@@ -92,14 +99,14 @@
             "date": "2014-03-26T19:00:00.000-0500",
             "location": "ibm",
             "presenter": "synapticarbors",
-            "topic": "Introduction to NumPy (tentative title)",
+            "topic": "Introduction to NumPy",
             "url": "http://www.meetup.com/pghpython/events/160262032/"
         },
         {
             "date": "2014-04-23T19:00:00.000-0500",
-            "location": "tbd",
+            "location": "google",
             "presenter": "jesselegg",
-            "topic": "TBD",
+            "topic": "PEP Rally",
             "url": "http://www.meetup.com/pghpython/events/160262132/"
         },
         {
