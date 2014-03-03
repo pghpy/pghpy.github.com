@@ -49,7 +49,7 @@
             </thead>
             <tbody>
                 <tr ng-repeat="event in events" ng-class=" event.date | isPast " ng-cloak>
-                    <td><a ng-if="event.url" href="{{ event.url }}">{{ event.date | date:'EEE, MMM d, h:mm a' }}</a><span ng-if="!event.url">{{ event.date | date:'EEE, MMM d, h:mm a' }}</span></td>
+                    <td><a ng-if="event.url" href="{{ event.url }}" style="white-space: nowrap;">{{ event.date | date:"EEE, MMM d" }}<br>{{ event.date | date:"h:mm a" }}</a><span ng-if="!event.url" style="white-space: nowrap;">{{ event.date | date:"EEE, MMM d" }}<br>{{ event.date | date:"h:mm a" }}</span></td>
                     <td ng-bind-html="event.location | htmlify:locations | trusted"></td>
                     <td ng-bind-html="event.presenter | htmlify:presenters | trusted"></td>
                     <td ng-bind-html="event.topic | trusted"></td>
