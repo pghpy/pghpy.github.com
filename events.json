@@ -51,6 +51,9 @@
         "jesselegg": {
             "name": "Jesse Legg",
             "url": "https://twitter.com/jesselegg"
+        },
+        "benjaminschmidt": {
+            "name": "Benjamin Schmidt"
         }
     },
     "events": [
@@ -127,8 +130,8 @@
         {
             "date": "2014-09-24T19:00",
             "location": "ibm",
-            "presenter": "tbd",
-            "topic": "TBD",
+            "presenter": "benjaminschmidt",
+            "topic": "Pandas for Time Series Data",
             "url": "http://www.meetup.com/pghpython/events/dcrjzdysmbgc/"
         },
         {
