@@ -54,6 +54,10 @@
         },
         "benjaminschmidt": {
             "name": "Benjamin Schmidt"
+        },
+        "louisluangkesorn": {
+            "name": "Louis Luangkesorn",
+            "url": "https://twitter.com/kb3ogq"
         }
     },
     "events": [
@@ -138,7 +142,7 @@
             "date": "2014-10-22T19:00",
             "location": "google",
             "presenter": "tbd",
-            "topic": "TBD",
+            "topic": "Using Natural Language Processing and Machine Learning to Look for Patterns in Free Text Narratives",
             "url": "http://www.meetup.com/pghpython/events/dvqjzdysnbdc/"
         },
         {
