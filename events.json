@@ -1,0 +1,76 @@
+{
+    "locations": {
+        "tbd": {
+            "name": "TBD"
+        },
+        "ibm": {
+            "name": "IBM Squirrel Hill",
+            "url": "https://www.google.com/maps?q=1710+Murray+Ave+15217"
+        },
+        "google": {
+            "name": "Google",
+            "url": "https://www.google.com/maps?q=6425+Penn+Ave+15206"
+        }
+    },
+    "presenters": {
+        "tbd": {
+            "name": "TBD"
+        },
+        "nicksloan": {
+            "name": "Nick Sloan",
+            "url": "https://twitter.com/nicksloan"
+        },
+        "openhack": {
+            "name": "OpenHack",
+            "url": "https://twitter.com/OpenHackPGH"
+        },
+        "mrstevegross": {
+            "name": "Steve Gross",
+            "url": "https://twitter.com/mrstevegross"
+        },
+        "synapticarbors": {
+            "name": "Joshua Adelman",
+            "url": "https://twitter.com/synapticarbors"
+        },
+        "swansone": {
+            "name": "Erik Swanson",
+            "url": "http://www.swansone.com/"
+        },
+        "whit537": {
+            "name": "Chad Whitacre",
+            "url": "https://twitter.com/whit537"
+        },
+        "joshuapowell": {
+            "name": "Joshua Powell",
+            "url": "https://twitter.com/joshuapowell"
+        },
+        "ryanhamley": {
+            "name": "Ryan Hamley",
+            "url": "https://twitter.com/ryanhamley"
+        },
+        "jesselegg": {
+            "name": "Jesse Legg",
+            "url": "https://twitter.com/jesselegg"
+        },
+        "benjaminschmidt": {
+            "name": "Benjamin Schmidt"
+        },
+        "louisluangkesorn": {
+            "name": "Louis Luangkesorn",
+            "url": "https://twitter.com/kb3ogq"
+        },
+        "cmlang": {
+            "name": "Craig Lang",
+            "url": "https://twitter.com/cmlang42"
+        }
+    },
+    "events": [
+        {
+            "date": "2014-01-28T19:00",
+            "location": "ibm",
+            "presenter": "cmlang",
+            "topic": "Replacing a Batch Script with Python",
+            "url": "http://www.meetup.com/pghpython/events/218223382/"
+        },
+    ]
+}
