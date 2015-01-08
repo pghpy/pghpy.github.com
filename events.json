@@ -66,11 +66,11 @@
     },
     "events": [
         {
-            "date": "2014-01-28T19:00",
+            "date": "2015-01-28T19:00",
             "location": "ibm",
             "presenter": "cmlang",
             "topic": "Replacing a Batch Script with Python",
             "url": "http://www.meetup.com/pghpython/events/218223382/"
-        },
+        }
     ]
 }
