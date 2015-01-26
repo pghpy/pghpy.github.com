@@ -62,6 +62,9 @@
         "cmlang": {
             "name": "Craig Lang",
             "url": "https://twitter.com/cmlang42"
+        },
+        "special": {
+            "name": "Special Event"
         }
     },
     "events": [
@@ -71,6 +74,41 @@
             "presenter": "cmlang",
             "topic": "Replacing a Batch Script with Python",
             "url": "http://www.meetup.com/pghpython/events/218223382/"
+        },
+        {
+            "date": "2015-02-25T19:00",
+            "location": "google",
+            "presenter": "special",
+            "topic": "Learning Python: Beginner Questions Night",
+            "url": "http://www.meetup.com/pghpython/events/212623332/"
+        },
+        {
+            "date": "2015-03-25T19:00",
+            "location": "ibm",
+            "presenter": "special",
+            "topic": "Lightning Talks",
+            "url": "http://www.meetup.com/pghpython/events/219385371/"
+        },
+        {
+            "date": "2015-04-22T19:00",
+            "location": "google",
+            "presenter": "tbd",
+            "topic": "TBA",
+            "url": "http://www.meetup.com/pghpython/events/219525980/"
+        },
+        {
+            "date": "2015-05-27T19:00",
+            "location": "ibm",
+            "presenter": "tbd",
+            "topic": "TBA",
+            "url": "http://www.meetup.com/pghpython/events/219385374/"
+        },
+        {
+            "date": "2015-06-24T19:00",
+            "location": "google",
+            "presenter": "tbd",
+            "topic": "TBA",
+            "url": "http://www.meetup.com/pghpython/events/dvqjzdytjbgc/"
         }
     ]
 }
