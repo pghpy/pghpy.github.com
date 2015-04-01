@@ -85,15 +85,15 @@
         {
             "date": "2015-03-25T19:00",
             "location": "ibm",
-            "presenter": "special",
-            "topic": "Lightning Talks",
+            "presenter": "tbd",
+            "topic": "Canceled",
             "url": "http://www.meetup.com/pghpython/events/219385371/"
         },
         {
             "date": "2015-04-22T19:00",
             "location": "google",
-            "presenter": "tbd",
-            "topic": "TBA",
+            "presenter": "special",
+            "topic": "Lightning Talks",
             "url": "http://www.meetup.com/pghpython/events/219525980/"
         },
         {
