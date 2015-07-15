@@ -66,7 +66,7 @@
         "bensolecki": {
             "name": "Ben Solecki",
             "url": "https://github.com/bensolucky"
-        }
+        },
         "special": {
             "name": "Special Event"
         }
@@ -114,21 +114,21 @@
             "topic": "TBA",
             "url": "http://www.meetup.com/pghpython/events/dvqjzdytjbgc/"
         },
-                {
+        {
             "date": "2015-07-22T19:00",
             "location": "ibm",
             "presenter": "tbd",
             "topic": "Easy Machine Learning With the Scikit-Learn Package",
             "url": "http://www.meetup.com/pghpython/events/219385379/"
         },
-                {
+        {
             "date": "2015-08-26T19:00",
             "location": "google",
             "presenter": "tbd",
             "topic": "TBA",
             "url": "http://www.meetup.com/pghpython/events/218897196/"
         },
-                {
+        {
             "date": "2015-09-23T19:00",
             "location": "google",
             "presenter": "tbd",
